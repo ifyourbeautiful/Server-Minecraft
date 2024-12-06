@@ -23,8 +23,8 @@ jobs:
     - name: Setup Java
       uses: actions/setup-java@v3
       with:
-        java-version: '17'  # Cài đặt Java 17 (Minecraft 1.18+ yêu cầu Java 17 trở lên)
-
+        java-version: '17'  # Cài đặt Java 17
+        distribution: 'temurin'  # Chỉ định phân phối Java là Temurin (hoặc bạn có thể dùng 'adoptopenjdk')
 
     - name: Start Minecraft Server
       run: |
