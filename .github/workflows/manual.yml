@@ -29,7 +29,7 @@ jobs:
       run: |
         mkdir minecraft_server
         cd minecraft_server
-        wget https://launcher.mojang.com/v1/objects/4c5e7998f573ad9b69adf106f28d4c951a8dbcd7/server.jar -O minecraft_server.jar  # Tải server Minecraft (có thể thay đổi link nếu muốn dùng phiên bản khác)
+
 
     - name: Start Minecraft Server
       run: |
